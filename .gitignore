@@ -1,0 +1,13 @@
+*mp4
+*mov
+*wmv
+*.pdf
+*.png
+*.jpeg
+# .gitignore
+*.jpg
+*.mp4
+*.mov
+*.wmv
+*.txt
+*.avif

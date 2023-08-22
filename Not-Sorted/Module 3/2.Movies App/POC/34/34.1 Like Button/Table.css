@@ -1,0 +1,9 @@
+/* delete button ki css */
+
+.table-delete-btn {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: white;
+  background: red;
+}

@@ -12,7 +12,7 @@ galleryBtn.addEventListener("click" , function(){
 })
 
 let minZoom = 1;
-let maxZoom = 3.1; // hume 3 tak zoom chahiye tha aur points me 0.1 add krne pe 0.1 add nhi hota balki 0.1....something add hota hai to last time 2.9+0.1>3.0 ho jaata hai aur zoom inn 3 ki bjaye 2.9 tak hi jaa pata hai isiliye 3.1 use krna h 3.0 nhi
+let maxZoom = 3.1; // hume 3 tak zoom chahiye tha aur points me 0.1 add krne pe 0.1 add nhi hota balki 0.1....something add hota hai to last time 2.9+0.1>3.0 ho jaata hai aur zoom inn 3 ki bjaye 2.9 tak hi jaa pata hai isiliye 3.1 use kra taaki zoom 3 tk jaaye
 let currentZoom = 1;
 
 let recordingState = false;
@@ -186,12 +186,12 @@ function addMedia(mediaURL, mediaType) {
 navigator ek web api hai aur mediaDevices uska object hai jo input devices like camera inko connect krta hai
 getUserMedia : mediaDevices obj ka ek method hai jo browser pe ek prompt deta hai jimse ye media input ki permission maangta hai. 
                Isme ek object pass hota hai jisse hum bta skte hai ki hume sirf vedio chahiye ya audio video both. 
-               It returns a promise b/c ye ek promisified method hai which resolves(scb) into a object called as MediaStream(in this case).
+               It returns a promise b/c ye ek promisified method hai which resolves(scb) into a object called as MediaStream.
 */
 
 /*
 #2.
-MediaRecorder ek interface hai (remember interface in oops) which provides functionality to record media
+mediaRecorder ek interface hai (remember interface in oops) which provides functionality to record media
 iske parameterized constructor ko call lagayi jaati hai jisme hum apni mediaStream pass krte hai which gives us a object named mediaRecorder.
 */
 

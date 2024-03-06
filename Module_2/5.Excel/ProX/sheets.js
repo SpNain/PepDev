@@ -30,6 +30,8 @@ function addSheet() {
     // remove all the data from current db cells
     cleanUI();
     initDB();
+
+    // baad me niche wali lines ko comment kr diya kyunki hum log baad me optimize kr dete hai jisme hum nya html lgate hi nhi hai to dobara se events attach krne ki need hi nhi hai
     // initCells();  // jab bhi koi nyi sheet add hogi to uske liye alag se UI add hoga 
     // attachEventListeners();  // kyunki sheet nyi add hui hai to uspe koi bhi events attach nhi honge jo default sheet se attached the
 
